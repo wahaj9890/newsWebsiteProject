@@ -1,0 +1,49 @@
+.MuiAppBar-colorPrimary {
+  background-color: #123f34 !important;
+}
+.newsMapCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.makeStyles-root-10 {
+  margin: 18px auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.MuiCardActions-root {
+  margin-top: auto;
+}
+.publishedDate {
+  font-weight: bold;
+}
+.readMore {
+  text-decoration: none;
+  animation: blinker 1s linear infinite;
+}
+.headingTab {
+  text-decoration: none;
+  color: #fff;
+}
+.searchBtn {
+  width: 99px;
+  height: 23px;
+  background: transparent;
+  padding: 6px;
+  text-align: center;
+  border-radius: 5px;
+  color: white !important;
+  font-weight: bold;
+  line-height: 25px;
+  border: 1px solid;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.active {
+  border-bottom: 1px solid #fff;
+}
